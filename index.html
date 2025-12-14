@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css link-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--navbar starts-->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html" class="logo">
+                    <img src="./image/logo-image.png" alt="logo-image">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#" class="blue">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">faq</a></li>
+                    <li><a href="#">case studies</a></li>
+                </ul>
+                <div class="nav-right">
+                    <a href="#" class="cmn-btn two"><i class="fa-solid fa-user"></i> login/register</a>
+                    <a href="#" class="cmn-btn">contact us</a>
+                </div>
+                <i class="fa-solid fa-bars hamburger"></i>
+            </nav>
+        </div>
+    </header>
+    <!--navbar endss-->
+    <main>
+        <!--banner starts-->
+        <section class="banner">
+            <div class="container">
+                <div class="banner-child">
+                    <h1>Your Complete IT Management Solution</h1>
+                    <p>Transforming IT Operations with Advanced AI-Powered Remote Monitoring and Management for Your IT
+                        Infrastructure.
+                    </p>
+                    <div class="banner-btn">
+                        <a href="#" class="cmn-btn">get started</a>
+                        <a href="#" class="cmn-btn ban-btn">request a demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--banner ends-->
+        <!--slider-->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <figure>
+            <img src="./image/slider-1-image.png" alt="slider-1-image">
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure>
+            <img src="./image/slider-2-image.png" alt="slider-2omage">
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure>
+            <img src="./image/slider-3-image.png" alt="slider-3-image">
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure>
+            <img src="./image/slider-1-image.png" alt="slider-1-image">
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure>
+            <img src="./image/slider-2-image.png" alt="slider-2omage">
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure>
+            <img src="./image/slider-3-image.png" alt="slider-3-image">
+        </figure>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 0,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+        <!--slider-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--about1 starts-->
+        <section class="about com-gap">
+            <div class="container">
+                <div class="about-child">
+                    <div class="left">
+                        <figure>
+                            <img src="./image/about-1-image.png" alt="about-1">
+                        </figure>
+                    </div>
+                    <div class="right">
+                        <div class="inner-text">
+                            <span class="about-text">fueled by integration</span>
+                            <h2>over 900 integration supported</h2>
+                            <p class="abt-txt">Seamless integration with Ceburu—connect your favorite tools, anywhere,
+                                anytime.
+                            </p>
+                            <p class="abt-txt">Managed or self-directed, you decide. Whether you prefer guided
+                                automation or complete
+                                control, Ceburu adapts to your needs—allowing you to monitor, optimize, and secure your
+                                IT infrastructure the way you want.
+                            </p>
+                            <a href="#" class="cmn-btn abt-btn">explore integrations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--about1 ends-->
+        <!--video section starts-->
+        <section class="video">
+            <div class="container">
+                <div class="video-child">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/llAYUWXV7CI?si=YSWGRHxI0DtsYOqW"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <!--video section ends-->
+        <!--about2 starts-->
+        <section class="about com-gap">
+            <div class="container">
+                <div class="about-child second">
+                    <div class="left">
+                        <figure>
+                            <img src="./image/about-2-image.png" alt="about-2">
+                        </figure>
+                    </div>
+                    <div class="right">
+                        <div class="inner-text">
+                            <span class="about-text">Lorem ipsum.</span>
+                            <h2>ceburu features</h2>
+                            <p class="abt-txt">"EVERYTHING. ALL THE TIME." It's more than a slogan. Powered by AI and
+                                fueled by integration, Ceburu hosts the world's leading suite of RMM software tools that
+                                delivers stability, security, and simplicity.
+                            </p>
+                            <ul class="link-grid">
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>it management</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>backup management</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>performance monitoring</a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>ai monitoring</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>ai ops</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>report</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>remote connect</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>alarms & triggers</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>asset management</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>full stack observability</a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-circle-check"></i>network performnace</a></li>
+                            </ul>
+                            <a href="#" class="cmn-btn abt-btn">explore integrations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--about2 ends-->
+    </main>
+    <!--footer starts-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-child">
+                <div class="cmn-footer">
+                    <div class="footer-upper">
+                        <h2>get in touch</h2>
+                        <div class="ft-second">
+                            <p class="footer-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quia
+                                aliquam illum perferendis,
+                                sit pariatur ipsam?
+                            </p>
+                            <a href="#" class="cmn-btn abt-btn">explore integrations</a>
+                        </div>
+                    </div>
+                    <div class="footer-lower">
+                        <a href="./index.html" class="logo">
+                            <img src="./image/logo-image.png" alt="logo-image">
+                        </a>
+                        <ul class="footer-links">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">case studies</a></li>
+                        </ul>
+                        <ul class="footer-icons">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="copy-right">
+                        © 2025 <a href="./index.html">Ceburu</a>. All Rights Reserved
+                    </div>
+                    <div class="bootom-links">
+                        <a href="#">privacy policy</a>
+                        <span>|</span>
+                        <a href="#">term and conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends-->
+</body>
+
+</html>
